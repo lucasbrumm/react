@@ -28,5 +28,5 @@ public class Funcionario {
 
     @Column(name = "data_cadastro")
     @Temporal(TemporalType.DATE)
-    private LocalDate data = LocalDate.now();
+    private LocalDate data;
 }
